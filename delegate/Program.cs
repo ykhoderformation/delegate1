@@ -60,7 +60,7 @@ namespace TestDelegate
 
             Console.WriteLine(rslt);
             
-
+            // commit commentaire
             Console.Read();
         }
 
