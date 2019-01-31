@@ -37,6 +37,30 @@ namespace TestDelegate
             uneaction("toto", 5, 5, 2);
             uneaction("tata", 15, 3, 2);
             uneaction("titi", -1, 5, -2);
+
+
+            //exepmle de predicat 
+
+            Predicate<double> HasMoyenne = note =>
+            {
+                return note > 18;
+                //if (note > 18)
+                //{
+                //    Console.WriteLine("J'ai resussi");
+                //    return true;
+                //}
+                //else
+                //{
+                //    return false;
+                //}
+            };
+                double maNote = 19;
+
+                bool rslt = HasMoyenne(maNote);
+
+            Console.WriteLine(rslt);
+            
+
             Console.Read();
         }
 
