@@ -59,6 +59,10 @@ namespace TestDelegate
                 bool rslt = HasMoyenne(maNote);
 
             Console.WriteLine(rslt);
+<<<<<<< HEAD
+            
+            // commit commentaire
+=======
 
 
             //exemple LINQ
@@ -122,9 +126,10 @@ namespace TestDelegate
                 Console.WriteLine(monDico.Where(d => d.Value.EndsWith("0")).ElementAt(1).ToString());  //FirstOrDefault().ToString()); 
             }
 
+            //linq commit
 
 
-
+>>>>>>> ce4094b... Commit Dico Linq
             Console.Read();
         }
 
