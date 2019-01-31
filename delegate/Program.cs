@@ -122,7 +122,7 @@ namespace TestDelegate
                 Console.WriteLine(monDico.Where(d => d.Value.EndsWith("0")).ElementAt(1).ToString());  //FirstOrDefault().ToString()); 
             }
 
-
+            //linq commit
 
 
             Console.Read();
