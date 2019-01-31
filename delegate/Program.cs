@@ -31,6 +31,12 @@ namespace TestDelegate
 
             opr.operation = (a, b) => $"Multiplication: {a * b}";
             opr.Run();
+            //exemple d'action
+
+            Action<string, double, double, double> uneaction = (a, b, c, d) => Console.WriteLine("a: " + a + " b: " + b + " c: " + c + " d: " + d);
+            uneaction("toto", 5, 5, 2);
+            uneaction("tata", 15, 3, 2);
+            uneaction("titi", -1, 5, -2);
             Console.Read();
         }
 
